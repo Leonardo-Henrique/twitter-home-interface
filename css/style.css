@@ -22,18 +22,20 @@ header{
     padding-top: 1%;
 }
 .logo{
-    width: 30px;
-    height: 50px;
+    width: 28px;
+    height: 28px;
     /* border-radius: 50%; */
     transition: .2s;
     overflow: visible;
+    margin-left: 5%;
+    border-radius: 50px;
     /* background: #ccc; */
 }
 
 .logo a{
-    display: inline-block;
+    /* display: inline-block;
     font-weight: 700;
-    line-height: 1.5em;
+    line-height: 1.5em; */
 }
 .logo:hover{
     overflow: visible;
@@ -41,15 +43,18 @@ header{
     transition: .2s;
 }
 .menu{
-    /* margin-top: 2%; */
+    /* margin-top: 5%; */
+    position: relative;
+    top: 2%;
     width: 90%;
 }
 .menu li{
     /* margin-bottom: 7%; */
     width: auto;
     cursor: pointer;
+    text-align: justify;
+}   
 
-}
 .menu li a{
     color: #000;
     font-size: 1.25em;
@@ -66,6 +71,10 @@ header{
     border-radius: 50px;
     background: rgb(29, 161, 242, .15);
     color: rgb(29, 161, 242);
+}
+.menu li i{
+    margin-right: 24px;
+    font-size: 1.2em;
 }
 
 .menu li a:first-child{
@@ -97,6 +106,7 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.04);
     background: rgba(29, 161, 242, 1);
     transition: .2s;
 }
+
 
 .user{
     position: absolute;
@@ -169,7 +179,7 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.04);
     position: relative;
     top: 50px;
     width: 100%;
-    padding: 2%;
+    padding: 2% 2% 0 2%;
     /* margin-top: 50px; */
     /* background: red; */
 }
@@ -215,9 +225,10 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.04);
 }
 .enviar{
     float: right;
+    margin-bottom: 1%;
 }
 .enviar button{
-    padding: 11px 20px;
+    padding: 10px 20px;
     border: none;
     outline: none;
     border-radius: 50px;
@@ -232,14 +243,33 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.04);
     float: left;
     padding-left: 12%;
 }
+.icons i{
+    padding: 10px;
+    margin-left: -10px;
+    font-size: 1.3em;
+    color: rgba(29, 161, 242, 1);
+    border-radius: 50px;
+    transition: .3s;
+    text-align: center;
+}
+.icons i:hover{
+    transition: .3s;
+    cursor: pointer;
+    background: rgb(29, 161, 242, .15);
+}
 
 .privacy{
     display: none;
     padding-left: 12%;
     width: 100%;
     font-weight: 700;
+    font-size: .9em;
     /* margin-top: -5px; */
 
+}
+.privacy i{
+    margin-top: 2px;
+    font-size: 1.2em;
 }
 .privacy a{
     text-decoration: none;
@@ -288,7 +318,7 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.04);
     position: relative;
     width: 100%;
     min-height: 510px;
-    height: auto;
+    height: 510px;
     /* background: #ccc; */
     padding: 2% 2% 2% 12%;
     transition: .4s;
@@ -351,8 +381,24 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.04);
     color: #5b708e;
 }
 .box-footer-reactions{
+    padding-top: 2%;
     position: absolute;
-    bottom: 2%;
+    bottom: 4%;
+}
+.reaction:first-child{
+    margin-left: 0px;
+}
+.reaction{
+    float: left;
+    margin-left: 45px;
+}
+.reaction i{
+    color: rgb(91, 112, 131);
+}
+.reaction span{
+    color: rgb(91, 112, 131);
+    padding-left: 5px;
+    font-size: .9em;
 }
 
 .foto-user-box{
@@ -365,9 +411,6 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.04);
     background: red;
     overflow: hidden;
 }
-
-
-
 
 
 .right{

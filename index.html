@@ -23,14 +23,14 @@
             </div>
 
             <ul class="menu">
-                <li><a href="" class="active">Home</a></li>
-                <li><a href="">Explore</a></li>
-                <li><a href="">Notifications</a></li>
-                <li><a href="">Messages</a></li>
-                <li><a href="">Bookmarks</a></li>
-                <li><a href="">Lists</a></li>
-                <li><a href="">Profile</a></li>
-                <li><a href="">More</a></li>
+                <li><a href="" style="color: rgb(29, 161, 242);"><i class="fas fa-home"></i>Home</a></li>
+                <li><a href=""><i class="fas fa-hashtag"></i>Explore</a></li>
+                <li><a href=""><i class="far fa-bell"></i>Notifications</a></li>
+                <li><a href=""><i class="far fa-envelope" style="width: 21px;"></i>Messages</a></li>
+                <li><a href=""><i class="far fa-bookmark"></i>Bookmarks</a></li>
+                <li><a href=""><i class="far fa-file-alt"></i>Lists</a></li>
+                <li><a href=""><i class="far fa-user"></i>Profile</a></li>
+                <li><a href=""> <i class="far fa-comment-dots"></i>More</a></li>
                 <button>Tweet</button>
             </ul>
 
@@ -73,7 +73,11 @@
 
                 <div class="box-footer">
                     <div class="icons">
-                        <p>icones</p>
+                        <i class="fas fa-camera-retro"></i>
+                        <i class="fas fa-sliders-h"></i>
+                        <i class="fas fa-poll-h"></i>
+                        <i class="far fa-smile"></i>
+                        <i class="far fa-calendar-alt"></i>
                     </div>
                     <div class="enviar">
                         <button class="btn-enviar">Tweet</button>
@@ -91,8 +95,10 @@
                 <div class="box-feed">
                     
                     <div class="foto-user-box">
-                        <img src="img/uol.png" alt="">
+                        <img src="img/uol.png" alt="">                        
                     </div>
+
+                    
 
                     <div class="box-header">
                         
@@ -118,15 +124,30 @@
                     </div>
 
                     <div class="box-footer-reactions">
-                        reações
+                    <div class="reaction">
+                            <i class="far fa-comment"></i>
+                            <span>542</span>
+                        </div>
+
+                        <div class="reaction">
+                            <i class="fas fa-retweet"></i>
+                            <span>22</span>
+                        </div>
+
+                        <div class="reaction">
+                        <i class="far fa-heart"></i>
+                            <span>1.1k</span>
+                        </div>
                     </div>
                 </div>
 
                 <div class="box-feed">
-
+                    
                     <div class="foto-user-box">
-                        <img src="img/uol.png" alt="">
+                        <img src="img/uol.png" alt="">                        
                     </div>
+
+                    
 
                     <div class="box-header">
                         
@@ -134,11 +155,10 @@
                         <span style="color: rgb(91, 112, 131);">@uol · 3m</span>
                         <a href="" style="font-size: 1.5em;">...</a>
                         <div class="clear"></div>
-
                     </div>
 
                     <div class="descricao">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consect</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae.</p>
                     </div>
 
                     <div class="noticia">
@@ -153,7 +173,20 @@
                     </div>
 
                     <div class="box-footer-reactions">
-                        reações
+                    <div class="reaction">
+                            <i class="far fa-comment"></i>
+                            <span>542</span>
+                        </div>
+
+                        <div class="reaction">
+                            <i class="fas fa-retweet"></i>
+                            <span>22</span>
+                        </div>
+
+                        <div class="reaction">
+                        <i class="far fa-heart"></i>
+                            <span>1.1k</span>
+                        </div>
                     </div>
                 </div>
 
@@ -192,7 +225,7 @@
                     </div>
 
                     <div class="trends-img">
-                        <!-- <img src="img/trends.jpeg" alt=""> -->
+                        <img src="img/fut.png" alt="">
                     </div>
 
                     <div class="clear"></div>
@@ -247,7 +280,7 @@
                 </div>
 
                 <div class="trends-img">
-                    <!-- <img src="img/trends.jpeg" alt=""> -->
+                    <img src="img/netflix.png" alt="">
                 </div>
 
                 <div class="clear"></div>
@@ -266,7 +299,7 @@
                 </div>
 
                 <div class="trends-img">
-                    <!-- <img src="img/trends.jpeg" alt=""> -->
+                    <img src="img/pc.png" alt="">
                 </div>
 
                 <div class="clear"></div>
@@ -375,6 +408,7 @@
             $('#text').keyup(function() {
                 $('.btn-enviar').addClass('op1');
             });
+
         </script>
        
     </body>
